@@ -26,7 +26,7 @@ const webpackRegEx = /<%=\swebpack\:(.+)(?:(?!%>).).*?%>/g;
 let replaced = '';
 
 replaced = content.replace(webpackRegEx, (match, p1) => {
-    return manifest[match];
+    return manifest[p1];
 });
 
 var output = path.parse(argv.o);
