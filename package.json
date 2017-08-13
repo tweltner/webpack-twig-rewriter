@@ -1,0 +1,22 @@
+{
+  "name": "webpack-twig-rewriter",
+  "version": "1.0.0",
+  "description": "Rewrite twig template with webpack manifest file info",
+  "main": "index.js", 
+  "bin": {
+    "usemin": "./bin/twig-rewriter"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "webpack",
+    "twig",
+    "plugin"
+  ],
+  "author": "Thomas Handwerker <thandwerker@informagic.net>",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^8.0.2"
+  }
+}
