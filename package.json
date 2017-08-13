@@ -1,6 +1,6 @@
 {
   "name": "webpack-twig-rewriter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rewrite twig template with webpack manifest file info",
   "main": "index.js", 
   "bin": {
